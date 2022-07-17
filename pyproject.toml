@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quick-vpn"
+version = "0.1.0"
+description = ""
+authors = ["myako10s <19725261+myako10s@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "quick_vpn"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
