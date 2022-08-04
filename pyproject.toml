@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["myako10s <19725261+myako10s@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "quick_vpn"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
